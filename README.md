@@ -91,8 +91,6 @@ Negative Log-Likelihood Loss (NLLLoss) is used as the loss function during model
 - Network is then trained for 25 epochs using the `NLLLoss` loss function and `Adam` optimizer with a learning rate of `0.003`.
 - We keep track of training loss and plot it; we observe training loss decreasing throughout, but validation loss does not improve further after 11-12 epochs...
 
-<img src="https://github.com/sssingh/fashion-mnist-classification/blob/master/assets/fmnist_loss1.png?raw=true">
-
 - We have a trained model; let's try classifying a single image from the test set. 
 
 <img src="https://github.com/sssingh/fashion-mnist-classification/blob/master/assets/predict1.png?raw=true">
